@@ -13,14 +13,17 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <title> {{ page.title }} </title>
+    <title> {{ page.title }} | {{ site.description }}  </title>
   </head>
 
   <body>
     <header>
       <div class="inner">
-        <h1> {{ site.name }} </h1>
-        <h2> {{ site.description }} </h2>
+        <a href=".">
+          <h1> {{ site.name }} </h1>
+          <h2> {{ site.description }} </h2>
+        </a>
+
         <a href="https://github.com/steve0hh" class="button"><small>Fork me on</small>GitHub</a>
       </div>
     </header>
