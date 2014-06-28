@@ -9,7 +9,7 @@ If you prefer configuring your RPi with command line, like me, this is the way t
 Note :
 
 - This commands were learnt from [elinux.org](http://elinux.org/RPi_Remote_Access).
-- This guide is written with the fact that all the commands were using the Raspbian ?wheezy? image. | [Download page](www.raspberrypi.org/downloads) | [torrent](http://downloads.raspberrypi.org/images/raspbian/2012-12-16-wheezy-raspbian/2012-12-16-wheezy-raspbian.zip.torrent) | [direct link](http://downloads.raspberrypi.org/images/raspbian/2012-12-16-wheezy-raspbian/2012-12-16-wheezy-raspbian.zip).
+- This guide is written with the fact that all the commands were using the Raspbian ?wheezy? image. | [Download page](http://www.raspberrypi.org/downloads) | [torrent](http://downloads.raspberrypi.org/images/raspbian/2012-12-16-wheezy-raspbian/2012-12-16-wheezy-raspbian.zip.torrent) | [direct link](http://downloads.raspberrypi.org/images/raspbian/2012-12-16-wheezy-raspbian/2012-12-16-wheezy-raspbian.zip).
 
 ##1) Knowing your Raspberry Pi's IP address
 As you might be thinking, we can't even see anything from the Pi, how do we even know what is the IP address of our Pis?
@@ -50,7 +50,7 @@ in my case it will be
     ssh 192.168.1.6 -l pi
 
 ##3) Clear the public and private keys
-This part is totally optional but highly recommended, due to the fact that that everyone that downloads the Raspbian ?wheezy? image, they will have the same public & private key, hence it's better to generate your own, preventing man-in-the-middle attacks. 
+This part is totally optional but highly recommended, due to the fact that that everyone that downloads the Raspbian ?wheezy? image, they will have the same public & private key, hence it's better to generate your own, preventing man-in-the-middle attacks.
 
 So in the SSH console type (Don't worry, it won't break your SSH connection) :
 
